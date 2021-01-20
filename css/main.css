@@ -157,7 +157,7 @@ body {
 }
 
 .cards .new {
-  transform: translateY(50px);
+  transform: translateY(30px);
 }
 .group-form label {
   margin-bottom: 30px;
