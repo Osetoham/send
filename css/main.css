@@ -217,7 +217,7 @@ body {
     font-family: 'Inter', sans-serif;
     color: rgb(199, 194, 194);
     line-height: 1.5;
-    margin-top: 80px;
+    margin-top: 45px;
     margin-right: 60px;
 }
 
@@ -312,6 +312,7 @@ body {
 .total{
     font-family: 'Inter', sans-serif;
     font-weight: bold;
+    margin-top: 60px;
 }
 
 
