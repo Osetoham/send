@@ -19,7 +19,7 @@
   <body>
     <div id="wrapper">
       <div class="flex-wrapper">
-        <div class="flex-wrapper-item">
+        <div class="flex-wrapper-item flex-1">
           <div class="background">
             <div class="container">
               <div class="flex">
@@ -32,7 +32,7 @@
                 </div>
               </div>
 
-              <div class="payment">
+              <div class="head">
                 <div class="flex">
                   <h1>Payment details</h1>
                   <div class="secure">
@@ -114,15 +114,95 @@
           </div>
         </div>
 
-        <div class="flex-wrapper-item">
-            <div class="payment">
-                <div class="flex">
-                  <!-- <h1>Order summary</h1> -->
-                
+        <div class="flex-wrapper-item margin-right">
+            <div class="head summary">
+                <div class="flex order">
+                  <h1>Order summary</h1>
                 </div>
+                <div class="summary-flex flex">
+                    <div class="item">
+                        <div class="circle"></div>
+                        <div class="ship">
+                            <div class="step">Step 1</div>
+                            <div class="track">Shipping</div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="circle"></div>
+                        <div class="pay">
+                            <div class="step">Step 2</div>
+                            <div class="track current">Payment</div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="circle"></div>
+                       <div class="Review">
+                        <div class="step">Step 3</div>
+                        <div class="track">Review</div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <form action="">
+                  <div class="group-form item-order js-dropdown">
+                    <div class="flex">
+                        <span class="prada">Prada</span>
+                        <img class = 'svg arrow'src="svg/arrow.svg" alt="">
+                    </div>
+                    <div class="order">
+                        <div class="flex">
+                            <p>Leather-mini-bag</p>
+                            <span>$1850.00</span>
+                        </div>
+                        
+                        <div class="flex">
+                            <p>Leather-mini-bag</p>
+                            <span>$370.00</span>
+                        </div>
+
+                        <div class="flex">
+                            <p>Leather-mini-bag</p>
+                            <span>0.00</span>
+                        </div>
+
+                        <div class="flex">
+                            <p>Total</p>
+                            <span>$2220.00</span>
+                        </div>
+                    
+                    </div>
+                  </div>
+
+                  
+
+                  <div class="group-form item-order">
+                    <div class="flex">
+                        <span class="prada">Dr Martens</span>
+                        <img class = 'svg'src="svg/arrow.svg" alt="">
+                    </div>
+                  </div>
+
+                  <div class="group-form item-order">
+                    <div class="flex">
+                        <span class="prada">Chanel</span>
+                        <img class = 'svg'src="svg/arrow.svg" alt="">
+                    </div>
+                  </div>  
+                </form>
+
+
+              </div>
+            <div class="flex total">
+                <p>Total Amount:</p>
+                <span>$3680.60</span>
             </div>
         </div>
       </div>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
