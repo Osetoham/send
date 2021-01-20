@@ -8,14 +8,14 @@
 }
 
 body {
-  background: grey;
+  background: #f5f8f9;
 }
 
-.grid {
+.flex-wrapper {
   display: flex;
 }
 
-.grid-item1 {
+.flex-wrapper-item {
   margin: 20px;
 }
 
@@ -192,13 +192,13 @@ body {
   font-family: "Inter", sans-serif;
   background: #f5f8f9;
   padding: 15px;
-  margin-right: 20px;
+  margin-right: 14px;
   background: black;
   color: white;
   border-radius: 5px;
 }
 
 .btn .confirm.inverted button {
-  color: black;
-  background: white;
+    color: rgb(199, 194, 194);
+    background: white;
 }
