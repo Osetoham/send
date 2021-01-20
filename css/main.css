@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+}
+
+body {
+  background: grey;
+}
+
+.grid {
+  display: flex;
+}
+
+.grid-item1 {
+  margin: 20px;
+}
+
+.background {
+  background: white;
+}
+
+.container {
+  margin: 0 50px;
+  padding-top: 50px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.profile-flex {
+  display: flex;
+  align-items: center;
+  background: #f5f8f9;
+  padding: 5px 0;
+  padding-right: 3px;
+  border-radius: 30px;
+}
+.profile-flex .name {
+  margin-right: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  padding-left: 27px;
+}
+
+.profile-flex .avatar {
+  width: 40px;
+  height: 40px;
+  display: flex;
+}
+.payment {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.payment h1 {
+  margin-right: 160px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
+.secure-head {
+  font-weight: bolder;
+  font-family: "Inter", sans-serif;
+}
+.secure {
+  align-items: center;
+  margin-top: 30px;
+}
+
+.secure .text {
+  color: rgb(199, 194, 194);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.credit {
+  display: flex;
+  font-family: "Inter", sans-serif;
+}
+
+.credit-tab {
+  align-items: unset;
+}
+
+.credit a {
+  color: rgb(199, 194, 194);
+  padding: 20px 0;
+  margin-bottom: -2px;
+}
+.mid {
+  margin: 0 40px;
+}
+
+.credit .current {
+  color: #43535b;
+  border-bottom: 2px solid #43535b;
+  font-weight: 600;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background: #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.flex-item {
+  flex: 1;
+  margin-bottom: 20px;
+}
+.flex-item:first-of-type {
+  margin-right: 50px;
+  flex: 0.7;
+}
+.flex-item .cards {
+  width: 100%;
+  border-radius: 10px;
+}
+.flex-item .voilet {
+  background: #ced9fd;
+}
+
+.flex-item .orange {
+  background: #f9cba1;
+  margin: 20px 0;
+}
+
+.flex-item .green {
+  background: #bddba6;
+}
+
+.flex-item .number {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  padding-right: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.flex-item .padding-bottom {
+  padding-bottom: 10px;
+}
+
+.cards .new {
+  transform: translateY(50px);
+}
+.group-form label {
+  margin-bottom: 15px;
+  display: block;
+  font-family: "Inter", sans-serif;
+  color: rgb(199, 194, 194);
+}
+
+.group-form label input {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  background: #f5f8f9;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.input-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.btn {
+  display: flex;
+  margin-top: 20px;
+}
+
+.btn .confirm button {
+  border: none;
+  font-family: "Inter", sans-serif;
+  background: #f5f8f9;
+  padding: 15px;
+  margin-right: 20px;
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn .confirm.inverted button {
+  color: black;
+  background: white;
+}
